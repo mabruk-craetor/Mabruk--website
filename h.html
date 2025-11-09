@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مبروك شمس الدين ابراهيم - صفحة شخصية</title>
+<style>
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Arial', sans-serif; overflow-x:hidden; background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb); background-size: 400% 400%; animation: gradientBG 15s ease infinite; }@keyframes gradientBG { 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
+
+header { text-align:center; padding:60px 20px; color:white; text-shadow:2px 2px 10px rgba(0,0,0,0.3); } header h1 { font-size:3em; margin-bottom:10px; } header p { font-size:1.2em; max-width:800px; margin:auto; }
+
+section { padding:50px 20px; max-width:1000px; margin:auto; } .card { background: rgba(255,255,255,0.9); border-radius:20px; padding:30px; margin-bottom:40px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s, box-shadow 0.3s; } .card:hover { transform: translateY(-10px); box-shadow:0 12px 30px rgba(0,0,0,0.3); } .card h2 { color:#333; margin-bottom:15px; } .card p { line-height:1.6; color:#555; } .button { display:inline-block; margin-top:15px; padding:12px 25px; border:none; border-radius:12px; background:#ff6f61; color:white; font-weight:bold; cursor:pointer; transition: transform 0.2s, background 0.3s; text-decoration:none; } .button:hover { transform: scale(1.1); background:#ff3b2e; } .contact a { display:block; margin:10px 0; color:#ff3b2e; font-weight:bold; text-decoration:none; transition: color 0.3s; } .contact a:hover { color:#ff6f61; } .footer { text-align:center; padding:20px; color:white; text-shadow:1px 1px 5px rgba(0,0,0,0.4); } </style>
+
+</head>
+<body><header>
+<h1>مبروك شمس الدين ابراهيم</h1>
+<p>مرحبًا بك في صفحتي الشخصية! هنا ستتعرف على كل شيء عني، وسأريك معلومات التواصل والروابط المهمة بطريقة جذابة وتفاعلية.</p>
+</header><section class="card" id="about">
+<h2>عنّي</h2>
+<p>أنا مبروك شمس الدين ابراهيم، شخص مبدع وطموح أسعى دائمًا لتحقيق أهدافي والتميز في كل ما أقوم به. أحب التعلم المستمر واكتساب المهارات الجديدة. أسعى لبناء شبكة قوية من العلاقات الإيجابية والمشاريع الناجحة. هذه الصفحة هي نافذتي للتواصل مع العالم وعرض كل ما هو مهم بالنسبة لي.</p>
+</section><section class="card contact" id="contact">
+<h2>تواصل معي</h2>
+<a href="mailto:mabruukshamsuddin@gmail.com">البريد الإلكتروني: mabruukshamsuddin@gmail.com</a>
+<a href="tel:+251910190236">الهاتف: +251910190236</a>
+<a href="https://t.me/kulurusosmanghazi" target="_blank">تيليجرام: https://t.me/kulurusosmanghazi</a>
+</section><section class="card" id="extras">
+<h2>روابط إضافية</h2>
+<p>يمكنك إضافة هنا أي روابط أو مشاريع أخرى تريد أن يراها الزوار. هذه مساحة ديناميكية لتوسيع صفحتك الشخصية.</p>
+<a href="#about" class="button">عودة للأعلى</a>
+</section><div class="footer">
+&copy; 2025 مبروك شمس الدين ابراهيم
+</div><script>
+// نافذة ترحيب عند الدخول
+window.addEventListener('load', () => {
+    alert('مرحبًا بك في صفحة مبروك شمس الدين ابراهيم الشخصية!');
+});
+
+// أزرار تفاعلية يمكن تطويرها لاحقًا
+const buttons = document.querySelectorAll('.button');
+buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.style.transform = 'scale(1.2)';
+        setTimeout(() => { btn.style.transform = 'scale(1)'; }, 200);
+    });
+});
+</script></body>
+</html>
